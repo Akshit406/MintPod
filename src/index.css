@@ -17,6 +17,12 @@ body {
   @apply bg-gray-900 text-gray-100 font-sans;
   background-color: var(--primary-dark);
   font-family: 'Inter', sans-serif;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;    /* Firefox */
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 /* Glow effects */
