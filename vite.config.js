@@ -18,7 +18,7 @@ export default defineConfig({
   },
   build: {
     outDir: 'dist',
-    assetsInlineLimit: 4096, // 4kb
+    assetsInlineLimit: 4096,
     rollupOptions: {
       output: {
         assetFileNames: 'assets/[name]-[hash][extname]',
