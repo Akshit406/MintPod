@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -51,6 +51,7 @@ module.exports = {
   plugins: [
     require('@tailwindcss/forms'),
     require('@tailwindcss/typography'),
+    require('tailwind-scrollbar-hide'),
     // Custom glow effect plugin
     function ({ addUtilities }) {
       const newUtilities = {
