@@ -19,6 +19,7 @@ body {
   font-family: 'Inter', sans-serif;
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none;    /* Firefox */
+ ;
 }
 
 body::-webkit-scrollbar {
